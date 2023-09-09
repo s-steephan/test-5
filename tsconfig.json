@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2022",
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "sourceMap": false,
+      "alwaysStrict": true,
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "outDir": "build/typescript",
+      "lib": [
+          "es2020"
+      ],
+      "baseUrl": ".",
+      "paths": {
+          "*": [
+              "node_modules/*"
+          ]
+      },
+  },
+  "include": ["src/**/*"]
+}
